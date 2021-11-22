@@ -70,4 +70,16 @@ html {
  * =============
  */
 
+@media (prefers-reduced-motion) {
+  .gear-big {
+    animation: none;
+  }
+}
+@media (prefers-reduced-motion) {
+  .gear-small {
+    animation: none;
+  }
+}
+
+
 /* stylelint-enable */
