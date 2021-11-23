@@ -69,16 +69,16 @@ html {
 * Unfortunately, Markbot, is a little too old to understand them. :(
 * =============
 */
+
 @media (prefers-reduced-motion) {
   .gear-big {
     animation: none;
   }
-}
+
 @media (prefers-reduced-motion) {
   .gear-small {
     animation: none;
   }
-}
 
 @media (prefers-color-scheme: dark) {
   body {
@@ -92,5 +92,7 @@ html {
   h1 {
     color: #ccc;
   }
+
 }
+
 /* stylelint-enable */
