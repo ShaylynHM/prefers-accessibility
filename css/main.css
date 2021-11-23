@@ -75,24 +75,23 @@ html {
     animation: none;
   }
 
-@media (prefers-reduced-motion) {
-  .gear-small {
-    animation: none;
-  }
+  @media (prefers-reduced-motion) {
+    .gear-small {
+      animation: none;
+    }
 
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: #111;
-  }
+    @media (prefers-color-scheme: dark) {
+      body {
+        background-color: #111;
+      }
 
-  .banner {
-    background-color: #333;
-  }
+      .banner {
+        background-color: #333;
+      }
 
-  h1 {
-    color: #ccc;
-  }
-
-}
+      h1 {
+        color: #ccc;
+      }
+    }
 
 /* stylelint-enable */
