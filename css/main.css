@@ -71,27 +71,35 @@ html {
 */
 
 @media (prefers-reduced-motion) {
+
   .gear-big {
     animation: none;
   }
 
-  @media (prefers-reduced-motion) {
-    .gear-small {
-      animation: none;
-    }
+}
 
-    @media (prefers-color-scheme: dark) {
-      body {
-        background-color: #111;
-      }
+@media (prefers-reduced-motion) {
 
-      .banner {
-        background-color: #333;
-      }
+  .gear-small {
+    animation: none;
+  }
 
-      h1 {
-        color: #ccc;
-      }
-    }
+}
+
+@media (prefers-color-scheme: dark) {
+
+  body {
+    background-color: #111;
+  }
+
+  .banner {
+    background-color: #333;
+  }
+
+  h1 {
+    color: #ccc;
+  }
+
+}
 
 /* stylelint-enable */
